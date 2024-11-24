@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #e7eae3; /* Texto claro */
+    background-color: #1a1a1a; /* Fundo escuro */
+    margin: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#botão:hover {
+    background-color: #F28705;
+    color: #1a1a1a;
+    border: 1px solid #F28705;
+}
+
+#botão {
+    background-color: #F28705;
+    color: #1a1a1a;
+}
+
+#fundo {
+    background-color: #333; /* Fundo escuro */
+}
+
+body h2 {
+    font-family: shrikhand;
+    color: #F28705; /* Texto laranja */
+}
+
+nav img {
+    height: 50px;
+    width: 60px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #734C1D; /* Cor de fundo da navbar */
+    color: #e7eae3; /* Texto claro */
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+
+nav h2 {
+    font-family: "Shrikhand", serif;
+    color: #F28705;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+nav p {
+    font-family: "Dancing Script", cursive;
+    color: #F28705;
+    margin-top: 0;
+}
+
+header {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 14em;
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h2 {
+    font-family: "Shrikhand", serif;
+    color: #F28705;
+    margin-bottom: 0;
+    margin: 0;
+    font-size: 80px;
+}
+
+header p {
+    font-family: "Dancing Script", cursive;
+    color: #F28705;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+#a {
+    list-style: none;
+    color: #e7eae3; /* Texto claro */
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+#a:hover {
+    background-color: rgba(231, 234, 227, 0.296);
+    text-decoration: underline;
+}
+
+#navbarNavDropdown {
+    text-align: center;
+    right: 0px;
+    margin-right: 10px;
+    justify-content: right;
+}
+
+section {
+    z-index: 1;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px;
+    padding: 5em;
+}
+
+#navbar-toggler {
+    border: 2px solid #e7eae3; /* Borda clara */
+}
+
+#navbar-toggler:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    box-shadow: 0 0 0 2px #e7eae3; /* Borda de foco clara */
+}
+
+#navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(231, 234, 227,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+section ul {
+    color: #e7eae3;
+    font-size: 20px;
+}
+
+b {
+    color: #e7eae3;
+}
+
+main {
+    font-family: "Open Sans", sans-serif;
+}
+
+.ul1 img {
+    height: 20%;
+    width: 90%;
+}
+
+.ul1 li {
+    margin-top: 40px;
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.ul2 img {
+    height: 20%;
+    width: 65%;
+}
+
+.minimo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.minimo img {
+    height: 20%;
+    width: 50%;
+}
+
+.sistema-cores img {
+    height: 20%;
+    width: 90%;
+}
+
+.list-alvo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ul-logo li {
+    margin-bottom: 1em;
+}
+
+.aplicacao img {
+    height: 450px;
+    width: 65%;
+    margin-top: 20px;
+}
+
+.aplicacao {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.botao img {
+    height: 50px;
+}
+
+footer {
+    background-color: #734C1D;
+    padding: 50px 0;
+    grid-area: footer;
+    border-top: 3px groove #F28705;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    color: #e7eae3;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #e7eae3;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-col {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.footer-col .a {
+    color: #e7eae3;
+}
+
+.footer-col b:hover {
+    text-decoration: underline red;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #e7eae3;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #cecdcd;
+    transform: scale(1.3);
+    transition: 900ms;
+}
+
+.footer-col .medias-socias {
+    margin-top: 30px;
+}
+
+.footer-col .medias-socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #e7eae3;
+    border: 1px solid #e7eae3;
+    transition: all 0.5s ease;
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover {
+    transform: scale(1.3);
+    transition: 800ms;
+    background-color: #e7eae3;
+}
+
+.footer-col .medias-socias .yt:hover {
+    color: red;
+    border: solid red;
+}
+
+.footer-col .medias-socias .whats:hover {
+    color: green;
+    border: solid green;
+}
+
+.footer-col .medias-socias .insta:hover {
+    color: orangered;
+    border: solid orangered;
+}
+
+.footer-col .medias-socias .git:hover {
+    color: purple;
+    border: solid purple;
+}
+
+.footer-col .medias-socias .face:hover {
+    color: blue;
+    border: solid blue;
+}
+
+.footer-col .medias-socias .linke:hover {
+    color: cadetblue;
+    border: solid cadetblue;
+}
+
+@media (max-width: 600px) {
+    #footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    footer #media-none {
+        display: inline-flex;
+    }
+}
+
+#imgresponsiva {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
